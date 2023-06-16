@@ -2,73 +2,68 @@
 import { BiSearch } from 'react-icons/bi'
 const Search = () => {
   return (
-    <div className="flex flex-grow-0 flex-shrink-1 basis-auto">
+    <div
+      className="
+      flex justify-center
+      xl:flex-grow-0 flex-grow
+      xl:flex-shrink flex-shrink-0
+      basis-auto
+    "
+    >
       <div
         className="
-        border-[1px]
-        w-full
-        md:w-auto
-        rounded-full
-        shadow-sm
-        hover:shadow-md
+        md:w-auto w-full
+        border-[1px] rounded-full
+        shadow-sm hover:shadow-md
         cursor-pointer
-        min-w-[348px] 
     "
       >
         <div
           className="
-            flex
-            flex-grow
-            items-center
-            justify-between
+            flex flex-grow items-center justify-between
             text-sm
       "
         >
           <div
             className="
             font-semibold
-            px-4
-            py-2
+            px-4 py-2
         "
           >
             Địa điểm bất kỳ
           </div>
           <span
             className="
-            w-[1px]
-            h-6
+            w-[1px] h-6
             bg-slate-300
+            md:block hidden
         "
           ></span>
           <div
             className="
             font-semibold
-            px-4
-            py-2
+            px-4 py-2
+            md:block hidden
         "
           >
             Tuần bất kỳ
           </div>
           <span
             className="
-            w-[1px]
-            h-6
+            w-[1px] h-6
             bg-slate-300
+            md:block hidden
         "
           ></span>
           <div
             className="
-            pl-6
-            pr-2
-            py-1
-            text-gray-600
-            flex
-            flex-row
-            items-center
+            pl-6 pr-2 py-1
+            text-gray-500
+            flex flex-row items-center flex-grow-0 justify-between
             gap-2
         "
           >
-            <span>Thêm khách</span>
+            <span className="md:block hidden">Thêm khách</span>
             <button
               className="
                 p-2

@@ -7,9 +7,23 @@ import UserMenu from './UserMenu'
 
 const Navbar = () => {
   return (
-    <div className="h-20 w-full fixed bg-white shadow-sm border-b-[1px]">
+    <div
+      className="
+      w-full h-20 
+      fixed top-0 left-0 right-0
+      bg-white
+      shadow-sm
+      border-b-[1px]
+    "
+    >
       <Container>
-        <div className="flex flex-grow items-center justify-center gap-3 md:gap-0">
+        <div
+          className="
+          w-full
+          flex flex-grow items-center justify-between
+          gap-3 md:gap-0
+        "
+        >
           <Logo />
           <Search />
           <UserMenu />
